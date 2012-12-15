@@ -1,0 +1,259 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+header, nav, section, article, aside, footer {
+	display: block;
+}
+body {
+	font: 13px Arial, Tahoma, Verdana, sans-serif;
+	height: 100%;
+   	position: relative;
+	font-family: "Times New Roman";
+	font-size: 16px;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	margin: 0 0 18px;
+}
+
+h1 {
+	font-family: "Times New Roman";
+	font-size: 24px;
+	font-weight: 650;
+	margin: 0px 10px 10px 10px;
+}
+
+h4 {
+	padding-left: 2px;
+	margin-bottom: 10px;
+}
+
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	width: 100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 116px;
+	border-bottom: 1px solid #ccc;
+}
+
+.hleft {
+  display: block;
+  float: left;
+  width:22%;
+}
+
+.hcenter{
+  display: block;
+  float: left;
+  width:50%;
+  padding-top: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+.hright {
+  display: block;
+  float: right;
+  padding-top: 25px;
+  width:23%;
+  padding-right: 25px;
+  text-align:right;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+	padding: 0 0 100px;
+	height: 1%;
+	position: relative;
+}
+#middle:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+	margin: 10px 0px 10px 180px;
+	border: 1px solid #ccc;
+	padding: 10px 0px 10px 10px;
+	float: left;
+	width: 85%;
+}
+
+.ind {
+	width: 44%;
+	float: left;
+	margin: 15px 15px 0 5px;
+}
+
+.clearer {
+clear: both;
+}
+
+/* Sidebar Left
+-----------------------------------------------------------------------------*/
+#sideLeft {
+	margin-top: 25px;
+	padding: 0px 0px 10px 10px;
+	float: left;
+	width: 180px;
+	margin-left: -99.9%;
+	border: 1px solid #ccc;
+}
+
+
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+	margin-top: 5px;
+	padding: 0px 10px 0px 10px;
+	float: left;
+	max-width: 20%;
+	min-width: 20%;
+	position: relative;
+	border: 1px solid #ccc;
+	margin-left: auto;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	height:65px;
+	margin: -65px auto 0;
+	width: 100%;
+	border: 1px solid #ccc;
+	position: absolute;
+}
+.fleft {
+  display: block;
+  float: left;
+  padding-top: 15px;
+  padding-left: 15px;
+  width:22%;
+}
+
+.fcenter{
+  display: block;
+  float: left;
+  width:50%;
+  padding-top: 8px;
+  padding-right: 15px;
+  text-align: center;
+}
+.fright {
+  display: block;
+  float: right;
+  padding-top: 25px;
+  width:23%;
+  padding-left: 15px;
+  padding-right: 5px;
+  text-align:right;
+}
+
+/* Images
+-----------------------------------------------------------------------------*/
+
+
+.thumbnails {
+	margin: 1em 3em 0 0;
+	text-align: center;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+}
+.mainthumb {
+	margin: 1em 3em 0 0;
+   	max-height: 500px;	
+	text-align: center;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+}
+
+.thumbnail {
+	text-decoration: none;
+	display: -moz-inline-box;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;		
+	margin: 0em 0 3em 3em;
+}
+
+.thumbnail .r {		
+	width: 12em;/* Задаем минимальную ширину по тексту */
+	height: 14em;
+	float: left;
+	text-align: center;
+}
+
+.thumbnail .radmin {		
+	width: 6em;
+	height: 7em;
+	float: left;
+	text-align: center;
+}
+.image {
+	padding: 30px 0 30px 0;
+	margin: 5px;
+	text-align: center;
+}
+/* Other
+-----------------------------------------------------------------------------*/
+.text {
+	border: 1px solid #ccc;
+	float: left;
+	margin: 15px 5px 0 40px;	
+    min-width: 70%;
+	max-width: 70%
+}
+
+.comm {
+
+	margin-top: 55px;
+}
+
+.comfl {
+	float: left;
+	width: 50%;
+}
+.menu {
+	margin-top: 10px;
+}
+
+.border {
+	margin-top: 10px;
+	border-top: 1px dotted #777;
+	padding: 4px 0px 0px 0px;
+}

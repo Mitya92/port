@@ -1,0 +1,4 @@
+RewriteEngine on
+      RewriteRule ^all/ /index.php?act=all
+	  RewriteRule ^theme/([0-9]+)\/$ index.php?act=cat&id_theme=$1
+	  RewriteRule ^full/([0-9]+)\/$ index.php?act=full&id_photo=$1
