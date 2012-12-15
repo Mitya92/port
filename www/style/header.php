@@ -24,10 +24,12 @@ $title = $author[title];
 	if ($stmod=="noise") echo '<link rel="stylesheet" href="'.$url.'/style/noise.css" type="text/css" media="screen, projection" />';
 
 ?>
-	<!--[if lte IE 6]><link rel="stylesheet" href="../style/style_ie.css" type="text/css" media="screen, projection" /><![endif]-->
-	<script type="text/javascript" src="<?'.$url.'?>/highslide/highslide-with-gallery.js"></script>
-	<script type="text/javascript" src="<?'.$url.'?>/highslide/highslide.js"></script>
-	<link rel="stylesheet" type="text/css" href="<?'.$url.'?>/highslide/highslide.css" />
+
+<link rel="stylesheet" type="text/css" href="<?'.$url.'?>/jscript/highslide.css" />
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="<?'.$url.'?>/jscript/highslide-ie6.css" />
+<![endif]-->
+<script type="text/javascript" src="<?'.$url.'?>/jscript/highslide-full.js"></script>
 
 </head>
 <body>
