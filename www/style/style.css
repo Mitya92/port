@@ -150,8 +150,8 @@ clear: both;
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {
-	height:65px;
-	margin: -65px auto 0;
+	height:55px;
+	margin: -57px auto 0;
 	width: 100%;
 	border: 1px solid #ccc;
 	position: absolute;
@@ -159,7 +159,7 @@ clear: both;
 .fleft {
   display: block;
   float: left;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-left: 15px;
   width:22%;
 }
@@ -168,14 +168,14 @@ clear: both;
   display: block;
   float: left;
   width:50%;
-  padding-top: 8px;
+  padding-top: 5px;
   padding-right: 15px;
   text-align: center;
 }
 .fright {
   display: block;
   float: right;
-  padding-top: 25px;
+  padding-top: 20px;
   width:23%;
   padding-left: 15px;
   padding-right: 5px;

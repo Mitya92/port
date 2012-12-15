@@ -38,8 +38,10 @@
 <?			echo'<b>Почта: </b>'.$email.'<br/>';	?>
 			<b>ICQ:</b> 414854219<br/>
 		</div>
-<?		echo '<div class="fcenter"><br/><b>'.$copyright.'</b></div>';
-		echo '<div class="fright">'; ?> 
+<?		
+		echo '<div class="fcenter"><br/><b>'.$copyright.'</b></div>';
+		echo '<div class="fright">'; 
+?> 
 
 		
 <!-- Yandex.Metrika counter -->
